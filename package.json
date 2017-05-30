@@ -1,13 +1,22 @@
 {
-  "name": "xsltconverter",
+  "name": "node_xslt_converter",
   "version": "1.0.0",
-  "description": "A simple command line converter for xml/xsl",
+  "description": "A simple command line converter for xml/xsl.",
+  "keywords": ["xml", "xsl", "converter", "node", "open", "libxslt" ],
+  "homepage": "http://www.brianrollins.com",
   "main": "convert.js",
+  "bugs" : {
+    "url": "https://github.com/BrianRollins/node_xslt_converter/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Rollins",
-  "license": "ISC",
+  "repository": {
+  "type": "git", 
+  "url": "git://github.com/BrianRollins/node_xslt_converter.git"
+},
+  "license": "GPL-3.0",
   "devDependencies": {
     "libxslt": "^0.6.5",
     "open": "0.0.5"
